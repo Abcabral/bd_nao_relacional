@@ -1,0 +1,6 @@
+mongodump --db LojaInformatica --collection Produtos --out E:\Mongo\main\Video_3\Backup
+mongodump --db LojaInformatica --collection Fornecedores --out E:\Mongo\main\Video_3\Backup
+
+
+mongorestore --db LojaInformatica --collection Produtos  E:\Mongo\main\Video_3\Backup\LojaInformatica\Produtos.bson
+mongorestore --db LojaInformatica --collection Fornecedores  E:\Mongo\main\Video_3\Backup\LojaInformatica\Fornecedores.bson
